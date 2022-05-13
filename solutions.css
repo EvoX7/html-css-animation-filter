@@ -72,9 +72,14 @@
     transition: 2s;
 }
 
-.ex-7-img:hover {
-    /* filter: grayscale(.6) sepia(.5); */
-    background-image: url("./img/back-plane.jpg");
+.hover {
+    display:none;
+}
+
+
+.ex-7-img:hover .hover{
+    filter: grayscale(.6) sepia(.5);
+    display: block;
 }
 
 
