@@ -68,18 +68,24 @@
 
 }
 
+
+/* Cambio immagine aereo */
+
+.change-bg {
+    position: relative;
+
+}
+
+
 .ex-7-img {
+    position: absolute;
     transition: 2s;
+
 }
 
-.hover {
-    display:none;
-}
+.ex-7-img:hover {
+    opacity: 0;
 
-
-.ex-7-img:hover .hover{
-    filter: grayscale(.6) sepia(.5);
-    display: block;
 }
 
 
@@ -90,4 +96,20 @@
 .ex-8-img:hover {
     filter: grayscale(.6) sepia(.5);
     border-radius: 20px;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(.6) sepia(.5);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
 }
