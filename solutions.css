@@ -1,3 +1,7 @@
+
+
+
+
 /* Squares colors changed */
 
 .ex-1-square {
@@ -104,12 +108,149 @@
     transform: scale(1.5);
 }
 
+
+/* Cerchi rotanti */
 .ex-10-icon {
     animation: spin 1s linear infinite;
+
 }
+
+#orange-circle {
+
+    color: orange;
+}
+
+#red-circle {
+
+    color: red;
+}
+
+#green-circle {
+
+    color: greenyellow;
+}
+
+#yellow-circle {
+
+    color: yellow;
+}
+
+#purple-circle {
+
+    color: purple;
+}
+
+#acquamarine-circle {
+
+    color: aquamarine;
+}
+
+#wheat-circle {
+
+    color: wheat;
+}
+
+#violet-circle {
+
+    color: violet;
+}
+
+#blue-circle {
+
+    color: blue;
+}
+
+#chocolate-circle {
+
+    color: chocolate;
+}
+
+#brown-circle {
+
+    color: brown;
+}
+
+#olive-circle {
+    color: olive;
+}
+
 
 @keyframes spin {
     0% {
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover {
+    animation: spinALittleBit 2s linear;
+}
+
+@keyframes spinALittleBit {
+    0% {
+        transform: rotate(0);
+    }
+
+    10% {
+        color: red;
+    }
+
+    20% {
+        color: rgb(234, 135, 5);
+    }
+
+    30% {
+        color: rgb(242, 255, 0);
+    }
+
+    40% {
+        color: rgb(157, 255, 0);
+    }
+
+    50% {
+        color: rgb(16, 222, 198);
+    }
+
+    60% {
+        color: rgb(0, 42, 255);
+    }
+
+    70% {
+        color: rgb(106, 0, 255);
+    }
+
+    80% {
+        color: rgb(242, 0, 255);
+    }
+
+    90% {
+        transform: rotate(315deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+    /* Icons exercise 11  */
+    .aw-icons {
+        font-size: 60px;
+    }
+    .aw-icons:hover {
+        font-size: 60px;
+        animation: crackle;
+        animation: crackle 1s infinite;
+    }
+
+
+
+    @keyframes crackle {
+        0% {
+            color: red;
+        }
+
+        20% {
+            color: orangered
+        }
+    }
+        
+    
